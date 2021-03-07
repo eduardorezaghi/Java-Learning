@@ -1,0 +1,13 @@
+Responda cada uma das seguintes perguntas:
+a) O que significa escolher números "aleatoriamente"?
+R: significa escolher um número aleatório num dado intervalo.
+
+b) Por que o método nextInt da classe SecureRandom é útil para simular jogos de azar?
+R: Porque o intervalo no qual os números são gerados é igualmente distribuido, isto é, não existe um desbalancea-
+mento entre os números gerados.
+
+c) Por que frequentemente é necessário escalonar ou deslocar os valores produzidos por um objeto SecureRandom?
+R: É necessário para determinar um limite na magnitude dos números gerados.
+
+d) Por que a simulação computadorizada de situações do mundo real é uma técnica útil?
+R: Porque adiciona precisão nos cálculos e diminui a margem de erro.
