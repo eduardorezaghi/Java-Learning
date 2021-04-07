@@ -1,0 +1,26 @@
+a importação static on-demand
+b format
+c espelha
+d serviços public ou interface public
+e import único
+f construtor padrão
+g toString
+h acessores ou métodos de consulta
+i predicado
+j values
+k tem um
+l enum
+m static
+n static única
+o princípio do menor privilegio
+p final
+q on-demand
+r modificadores
+s BigDecimal
+t throw
+
+8.2	Explique a noção de acesso a pacotes no Java. Explique os aspectos negativos do acesso de pacote.
+	R: Acesso de pacote é tornar acessível dados de uma classe a outra, pertencente a um mesmo pacote. O ponto negativo é que pode ocorrer acesso indevido a esses atributos pelas demais classes do pacote, ferindo o princípio do encapsulamento.
+
+8.3	O que acontece quando um tipo de retorno, mesmo void, é especificado para um construtor?
+	R: O método é interpretado como de instância e o construtor padrão é utilizado, porque construtores não podem retornar nenhum tipo de valor.
