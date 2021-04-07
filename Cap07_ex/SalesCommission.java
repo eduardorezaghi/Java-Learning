@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 // Exercício 7.10
 // Classe SalesComission.java
 /*
@@ -16,6 +14,8 @@ i) R$ 1.000 e acima
 Resuma os resultados em formato tabular.
 
 */
+
+import java.util.Arrays;
 
 public class SalesCommission {
     private static double[] sales = new double[5];
