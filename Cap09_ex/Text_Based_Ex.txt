@@ -1,0 +1,15 @@
+Exercício 9.1
+a. herança
+b. public e protected
+c. é um / herança
+d. tem um / composição
+e. hierárquico
+f. public
+g. construtor
+h. super
+
+Exercício 9.2
+a. verdadeiro (um dos princípios da herança)
+b. falso, tem um é um relacionamento implementado pela composição entre classes e é um é implementado via herança
+c. falso, o relacionamento correto seria "tem um"
+d. false, pois isso é um caso de sobrecarga de métodos
