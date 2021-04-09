@@ -13,3 +13,16 @@ a. verdadeiro (um dos princípios da herança)
 b. falso, tem um é um relacionamento implementado pela composição entre classes e é um é implementado via herança
 c. falso, o relacionamento correto seria "tem um"
 d. false, pois isso é um caso de sobrecarga de métodos
+
+Exercício 9.4
+A utilização de herança permite a reutilização de código, e abre portas para outro conceito mais importante para o mercado de desenvolvimento: a reutilização de software. Com a herança, é possível destrinchar um problema complexo em termos gerais e específicos. Tal princípio também garante a centralização de certas interações em elementos (no caso de OOP, métodos em classes) que podem ser reutilizados e estendidos por classes inferiores na hierarquia de herança.
+
+Exercício 9.7
+O modificador de acesso private garante o princípio de encapsulamento dos dados até mesmo com as subclasses que pertencem a superclasse, sendo necessário o uso de getters e setters (métodos públicos) para modifica-los. O uso do modificador protected garante maior liberdade para o uso dos atributos da superclasse pelas subclasses, mas compromete o princípio de encapsulamento, e, portanto, não é recomendável.
+
+Exercício 9.9
+a) Primeiro, é calculado earnings() da forma que está declarado na superclasse. Depois, a lógica continua no método sobrescrito na subclasse.
+
+b) @Override indica que o método da superclasse será sobreposto em uma versão mais completa.
+
+c) super(elementos) indica que está se chamando um construtor específico da superclasse [tal construtor será avaliado pela ordem e tipo dos parâmetros].
