@@ -1,0 +1,44 @@
+15.1. Determine se cada uma das sentenças é verdadeira ou falsa. Se falsa, explique por quê.
+a) Você deve criar explicitamente os objetos de fluxo System.in, System.out e System.err.
+b) Ao ler dados de um arquivo utilizando a classe Scanner , se você quiser fazer isso múltiplas vezes, o arquivo deve ser fechado e reaberto
+para ler a partir do início dele.
+c) O método Files static exists recebe um Path e determina se ele existe (como um arquivo ou um diretório) no disco.
+d) Arquivos binários são legíveis em um editor de texto.
+e) Um caminho absoluto contém todos os diretórios, desde o diretório-raiz, que levam a um arquivo ou diretório específico.
+f) A classe Formatter contém o método printf, que permite gerar a saída de dados formatados para a tela ou para um arquivo.
+
+- a) Falso, estes fluxos são redirecionados por padrão na execução de um aplicativo
+- b) Verdadeiro
+- c) Verdadeiro
+- d) Falso, arquivos binários possuem outra base de codificação (binária), pois possuem instruções diretas para execução do arquivo pela CPU
+- e) Verdadeiro
+- f) Falso, a classe Formatter possui o mesmo padrão de especificação do printf utilizando o método .format()
+
+
+15.2. Cumpra as seguintes tarefas, supondo que cada uma se aplica ao mesmo programa:
+a) Escreva uma instrução que abre o arquivo "oldmast.txt" para entrada — utilize a variável Scanner inOldMaster.
+b) Escreva uma instrução que abre o arquivo "trans.txt" para entrada — utilize a variável Scanner inTransaction.
+c) Escreva uma instrução que abre arquivo "newmast.txt" para saída (e criação) — utilize a variável formatter outNewMaster.
+
+
+
+d) Escreva as instruções necessárias para ler um registro do arquivo "oldmast.txt". Use os dados para criar um objeto
+da classe Account — utilize a variável Scanner inOldMaster. Suponha que essa classe Account é idêntica àquela na Figura 15.9.
+
+
+e) Escreva as instruções necessárias para ler um registro do arquivo "trans.txt". O registro é um objeto da classe TransactionRecord
+— utilize a variável Scanner inTransaction. Suponha que essa classe TransactionRecord contenha o método setAccount
+(que recebe um int) para configurar o número de conta e o método setAmount (que recebe um double ) a fim de estabelecer o
+valor monetário da transação.
+f) Escreva uma instrução que gera a saída de um registro para o arquivo "newmast.txt". O registro é um objeto do tipo Account —
+utilize a variável Formatter outNewMaster.
+
+- a) Scanner inOldMaster = new Scanner(Paths.get("oldmast.txt"));
+- b) Scanner inTransaction = new Scanner(Paths.get("trans.txt"));
+- c) Formatter outNewMaster = new Formatter("newmast.txt");
+- d) 
+
+
+
+- e) 
+- f) 
